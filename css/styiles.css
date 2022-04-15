@@ -109,6 +109,7 @@ body {
 
 .site-nav {
   display: flex;
+  align-items: center;
 }
 
 .site-nav-bt {
@@ -148,6 +149,19 @@ body {
   margin: 0;
 }
 
+.icon-mail{
+  width: 16px;
+  height: 12px;
+  margin-right: 10px;
+}
+
+
+.icon-tel{
+    width: 10px;
+  height: 16px;
+  margin-right: 10px;
+  
+}
 /* Hero --------------------------------------------------------*/
 
 .hero {
@@ -200,6 +214,17 @@ body {
 .link.current {
   color: var(--accent-color);
 }
+
+
+
+
+/* .mailtel .link::before {
+  content: " j";
+  width: 20px;
+  height: 20px;
+background-image: url(../images/envelope.svg);
+
+} */
 
 /* advantage ----------------------------------------------*/
 
