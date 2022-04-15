@@ -61,7 +61,7 @@ body {
 .section {
   padding-top: 94px;
   padding-bottom: 94px;
-  /* outline: 1px solid seagreen; */
+  outline: 2px solid seagreen;
   /* background-color: goldenrod; */
 }
 
@@ -76,7 +76,7 @@ body {
 
   /* align-items: center; */
 
-  /* outline: 1px solid red; */
+  outline: 1px solid red;
 }
 
 /*-------------- HEADER------------ */
@@ -169,8 +169,8 @@ body {
 content: "";
 height: 34px;
 display: block;
-outline: 1px solid #000000;
-/* background-image: url(../images/svg/facebook\ 1.svg); */
+outline: 1px solid #000000; */
+/* background-image: url(../images/svg/facebook\ 1.svg);
 background-repeat: no-repeat;
 background-size: contain;
 background-position: center;
@@ -193,10 +193,10 @@ background-image: url(../images/svg/envelope.svg);
   color: var(--title-text-color);
   text-align: center;
 
-  /* padding-top: 200px; */
-  /* padding-bottom: 200px; */
+  /* padding-top: 200px;
+  padding-bottom: 200px; */
 
-  outline: 1px solid #000;
+  outline: 1px solid tomato;
 }
 
 .hero-title {
@@ -211,7 +211,6 @@ background-image: url(../images/svg/envelope.svg);
 
   /* max-width: 696px; */
   padding-bottom: 30px;
-
 }
 
 .hero-button {
@@ -250,18 +249,18 @@ background-image: url(../images/svg/envelope.svg);
 
 
 
-.hero-container{
+.hero{
   max-width: 1600px;
   height: 600px;
-  justify-content: center;
 
-  width: 1600px;
+  justify-content: center;
 
   margin-left: auto;
   margin-right: auto;
 
-  background-image: url(../images/Img_Overlay.png), url(../images/heroi.jpg);
+  background-image: rgba(47, 48, 58, 0.4),url(../images/heroi.jpg);
 
+   border-color: #757575;
 }
 
 
