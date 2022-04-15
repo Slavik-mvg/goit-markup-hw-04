@@ -193,8 +193,10 @@ background-image: url(../images/svg/envelope.svg);
   color: var(--title-text-color);
   text-align: center;
 
-  padding-top: 200px;
-  padding-bottom: 200px;
+  /* padding-top: 200px; */
+  /* padding-bottom: 200px; */
+
+  outline: 1px solid #000;
 }
 
 .hero-title {
@@ -205,11 +207,15 @@ background-image: url(../images/svg/envelope.svg);
   letter-spacing: 0.06em;
   text-transform: uppercase;
 
+  padding-top: 200px;
+
   /* max-width: 696px; */
   padding-bottom: 30px;
+
 }
 
 .hero-button {
+  display: block;
   background-color: var(--accent-button-color);
   color: var(--title-text-color);
   cursor: pointer;
@@ -223,6 +229,9 @@ background-image: url(../images/svg/envelope.svg);
   padding: 10px 32px;
   margin-right: auto;
   margin-left: auto;
+
+  
+  
 }
 
 .hero-button:hover,
@@ -239,17 +248,20 @@ background-image: url(../images/svg/envelope.svg);
   color: var(--accent-color);
 }
 
-/* .mailtel .link::before {
-  content: " j";
-  width: 20px;
-  height: 20px;
-background-image: url(../images/envelope.svg);
-
-} */
 
 
-.img-hero{
+.hero-container{
   max-width: 1600px;
+  height: 600px;
+  justify-content: center;
+
+  width: 1600px;
+
+  margin-left: auto;
+  margin-right: auto;
+
+  background-image: url(../images/Img_Overlay.png), url(../images/heroi.jpg);
+
 }
 
 
