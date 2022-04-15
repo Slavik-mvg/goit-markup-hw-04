@@ -149,23 +149,19 @@ body {
   margin: 0;
 }
 
-.icon-mail{
+.icon-mail {
   width: 16px;
   height: 12px;
   margin-right: 10px;
 }
 
-
-.icon-tel{
-    width: 10px;
+.icon-tel {
+  width: 10px;
   height: 16px;
   margin-right: 10px;
-  
 }
 
-
-
- /* .mailtel .item::before{
+/* .mailtel .item::before{
 content: "";
 height: 34px;
 display: block;
@@ -184,7 +180,6 @@ background-image: url(../images/svg/facebook\ 1.svg);
 .mailtel .item:nth-child(2)::before{
 background-image: url(../images/svg/envelope.svg);
 }  */
-
 
 /* Hero --------------------------------------------------------*/
 
@@ -228,9 +223,6 @@ background-image: url(../images/svg/envelope.svg);
   padding: 10px 32px;
   margin-right: auto;
   margin-left: auto;
-
-  
-  
 }
 
 .hero-button:hover,
@@ -247,9 +239,7 @@ background-image: url(../images/svg/envelope.svg);
   color: var(--accent-color);
 }
 
-
-
-.hero{
+.hero {
   max-width: 1600px;
   height: 600px;
 
@@ -258,11 +248,12 @@ background-image: url(../images/svg/envelope.svg);
   margin-left: auto;
   margin-right: auto;
 
-  background-image: rgba(47, 48, 58, 0.4),url(../images/heroi.jpg);
-
-   border-color: #757575;
+  background-image: linear-gradient(
+      rgba(47, 48, 58, 0.4),
+      rgba(47, 48, 58, 0.4)
+    ),
+    url(../images/heroi.jpg);
 }
-
 
 /* advantage ----------------------------------------------*/
 
