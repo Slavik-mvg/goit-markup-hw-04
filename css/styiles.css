@@ -381,7 +381,8 @@ background-image: url(../images/svg/envelope.svg);
 }
 
 .works .title,
-.commad .title {
+.commad .title,
+.custom-title {
   font-size: 36px;
   line-height: 1.17;
   text-align: center;
@@ -423,22 +424,16 @@ margin-left: 10px;
 }
 .comand-socseti {
    display: flex;
-
-   color: rgba(211, 238, 143, 0.349);
-
+   fill: #AFB1B8;  
   
-  
-outline: 4px solid turquoise;
+/* outline: 4px solid turquoise; */
 
 }
 
-.comand-socseti:hover{
-/* fill: darkgoldenrod; */
-}
 .comand-soc {
   display: flex;
-  
-  outline: 2px solid rgb(17, 231, 210);
+
+    /* outline: 2px solid rgb(17, 231, 210); */
   
 }
 
@@ -451,17 +446,20 @@ outline: 4px solid turquoise;
   justify-content: center;
   border-radius: 50px;
 
-  fill: currentColor;
-
-    outline: 3px solid rgb(13, 247, 25);
+  /* outline: 3px solid rgb(13, 247, 25); */
 
 }
 
 
-.comand-soc-link:hover{
-  background-color: rgb(153, 34, 113);
-  
+.comand-soc-link:hover,
+.comand-soc-link:focus
+{
+  background-color: #2196F3;
+}
 
+.comand-soc-link:hover .comand-socseti,
+.comand-soc-link:focus .comand-socseti{
+  fill: #ececec;
 }
 
 .comand-soclink {
@@ -472,9 +470,7 @@ outline: 4px solid turquoise;
 
   display: flex;
 
-    outline: 1px solid  rgb(224, 42, 42);
-
-
+    /* outline: 1px solid  rgb(224, 42, 42); */
 
 }
 
@@ -535,6 +531,58 @@ outline: 4px solid turquoise;
   padding-right: 0;
   padding-left: 0;
 } */
+
+
+
+/*-------------------- Постоянные клиенты */
+
+
+/* ------------------------------------------- */
+
+.custom-title{
+  padding-bottom: 50px;
+
+  /* outline: 2px solid greenyellow; */
+}
+
+
+.customers{
+display: flex;
+
+outline: 1px solid tomato;
+}
+
+.custom-item + .custom-item{
+  margin-left: 30px;
+}
+.custom-item{
+  width: 170px;
+  height: 92px;
+
+     border: 1px solid #AFB1B8;
+  box-sizing: border-box;
+border-radius: 4px;
+  
+
+  /* outline: 2px solid blue; */
+}
+
+.custom-link{
+ 
+  background-color: #2196F3;
+}
+
+.custom-icon{
+display: block;
+margin-top: 23px;
+margin-bottom: 19.77px;
+margin-right: auto;
+margin-left: auto;
+
+fill: #2196F3;
+
+outline: 1px solid #110c0c;
+}
 
 /* ------------------------------------------------------ */
 
