@@ -416,6 +416,68 @@ background-image: url(../images/svg/envelope.svg);
   color: var(--base-color);
 }
 
+
+.comand-soclink .comand-soc + .comand-soc{
+margin-left: 10px;
+
+}
+.comand-socseti {
+   display: flex;
+
+   /* color: currentColor; */
+  
+outline: 4px solid turquoise;
+
+}
+
+.comand-socseti:hover{
+fill: darkgoldenrod;
+
+}
+.comand-soc {
+  display: flex;
+  
+  outline: 2px solid rgb(3, 43, 39);
+  
+}
+
+.comand-soc-link{
+ width: 44px;
+  height: 44px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50px;
+
+  fill: currentColor;
+
+    outline: 3px solid rgb(13, 247, 25);
+
+}
+
+
+.comand-soc-link:hover{
+  background-color: rgb(153, 34, 113);
+  
+
+}
+
+.comand-soclink {
+  width: 206px;
+  height: 44px;
+  margin: 0 auto;
+  margin-top: 16px;
+
+  display: flex;
+
+    outline: 1px solid  rgb(224, 42, 42);
+
+
+
+}
+
+
 /* ---------------------------------------------------- */
 
 /*       <!--Навигация по портфолио--> */
