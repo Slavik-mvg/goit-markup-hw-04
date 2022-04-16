@@ -424,20 +424,21 @@ margin-left: 10px;
 .comand-socseti {
    display: flex;
 
-   /* color: currentColor; */
+   color: rgba(211, 238, 143, 0.349);
+
+  
   
 outline: 4px solid turquoise;
 
 }
 
 .comand-socseti:hover{
-fill: darkgoldenrod;
-
+/* fill: darkgoldenrod; */
 }
 .comand-soc {
   display: flex;
   
-  outline: 2px solid rgb(3, 43, 39);
+  outline: 2px solid rgb(17, 231, 210);
   
 }
 
