@@ -25,7 +25,6 @@
     <title>Document</title>
   </head>
   <body>
-
     <header class="header">
       <div class="container">
         <nav class="site-nav">
@@ -34,10 +33,10 @@
           >
           <ul class="site-nav-bt list">
             <li class="item">
-              <a class="link" href="./index.html">Студия</a>
+              <a class="link current" href="./index.html">Студия </a>
             </li>
             <li class="item">
-              <a class="link current" href="./portfolio.html">Портфолио</a>
+              <a class="link" href="./portfolio.html">Портфолио</a>
             </li>
             <li class="item">
               <a class="link" href="">Контакты</a>
@@ -47,13 +46,29 @@
 
         <ul class="site-nav mailtel list">
           <li class="item">
-            <a class="link" href="mailto:info@devstudio.com"
-              >info@devstudio.com</a
+            <a
+              class="link link-mail"
+              href="mailto:info@devstudio.com"
             >
+              <svg class="icon-mail">
+                <use
+                  href="./images/symbol-defs.svg#icon-envelope"
+                ></use>
+              </svg>
+
+              info@devstudio.com
+            </a>
           </li>
+
           <li class="item">
-            <a class="link" href="tel:+380961111111"
-              >+38 096 111 11 11</a
+            <a class="link link-tel" href="tel:+380961111111">
+              <svg class="icon-tel">
+                <use
+                  href="./images/symbol-defs.svg#icon-Vector"
+                ></use>
+              </svg>
+
+              +38 096 111 11 11</a
             >
           </li>
         </ul>
@@ -100,7 +115,6 @@
           <h1 class="visually-hidden">Примеры портфолио</h1>
           <!--Скрытый заголовок-->
           <ul class="projects-list">
-            
             <li class="project-item list">
               <img
                 src="./images/project1.jpg"
@@ -218,30 +232,78 @@
     <!--Футер-->
 
     <footer class="footer">
-      <div class="container">
-        <a class="logo-footer" href="./index.html"
-          ><span class="logo-back">Web</span>Studio</a
-        >
-        <address class="adress-footer">
-          <a
-            class="link-footer"
-            href="https://goo.gl/maps/NNCh9Yg6TMkBTw7S7"
-            >г. Киев, пр-т Леси Украинки, 26</a
+      <div class="container footer-container">
+        <div class="footer-left">
+          <a class="logo-footer" href="./index.html"
+            ><span class="logo-back">Web</span>Studio</a
           >
-          <br />
-          <a
-            class="link-footer link-footer-mailtel"
-            href="mailto:info@example.com"
-            >info@example.com</a
-          ><br />
-          <a
-            class="link-footer link-footer-mailtel"
-            href="tel:+380991111111"
-            >+38 099 111 11 11</a
-          >
-        </address>
+          <address class="adress-footer">
+            <a
+              class="link-footer"
+              href="https://goo.gl/maps/NNCh9Yg6TMkBTw7S7"
+              >г. Киев, пр-т Леси Украинки, 26</a
+            >
+            <br />
+            <a
+              class="link-footer link-footer-mailtel"
+              href="mailto:info@example.com"
+              >info@example.com</a
+            ><br />
+            <a
+              class="link-footer link-footer-mailtel"
+              href="tel:+380991111111"
+              >+38 099 111 11 11</a
+            >
+          </address>
+        </div>
+
+        <!-- Соцсети в футере -->
+
+        <div class="footer-socseti">
+          <h3 class="titlefooter">присоединяйтесь</h3>
+          <ul class="footersoc-list">
+            <li class="footersoc-item">
+              <a class="footersoc-link" href="">
+                <svg class="footersoc-icon" width="20" height="20">
+                  <use
+                    href="./images/symbol-defs.svg#icon-instagram-2-1"
+                  ></use>
+                </svg>
+              </a>
+            </li>
+
+            <li class="footersoc-item">
+              <a class="footersoc-link" href="">
+                <svg class="footersoc-icon" width="20" height="20">
+                  <use
+                    href="./images/symbol-defs.svg#icon-twitter-1-1"
+                  ></use>
+                </svg>
+              </a>
+            </li>
+
+            <li class="footersoc-item">
+              <a class="footersoc-link" href="">
+                <svg class="footersoc-icon" width="20" height="20">
+                  <use
+                    href="./images/symbol-defs.svg#icon-facebook-1-1"
+                  ></use>
+                </svg>
+              </a>
+            </li>
+
+            <li class="footersoc-item">
+              <a class="footersoc-link" href="">
+                <svg class="footersoc-icon" width="20" height="20">
+                  <use
+                    href="./images/symbol-defs.svg#icon-linkedin-1-1"
+                  ></use>
+                </svg>
+              </a>
+            </li>
+          </ul>
+        </div>
       </div>
     </footer>
-
   </body>
 </html>
