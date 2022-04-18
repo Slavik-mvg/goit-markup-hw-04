@@ -374,7 +374,8 @@ background-image: url(../images/svg/envelope.svg);
   line-height: 1.71;
 }
 
-.advantage-item {
+.advantage-item,
+.titlefooter {
   font-size: 14px;
   line-height: 1.14;
   text-transform: uppercase;
@@ -518,11 +519,6 @@ background-image: url(../images/svg/envelope.svg);
   margin-bottom: 4px;
 }
 
-/* .project-container{
-  padding-right: 0;
-  padding-left: 0;
-} */
-
 /*-------------------- Постоянные клиенты */
 
 /* ------------------------------------------- */
@@ -580,6 +576,7 @@ footer {
   padding-top: 60px;
   padding-bottom: 60px;
 
+
   /* outline: 2px solid red; */
 }
 
@@ -609,8 +606,62 @@ footer {
   margin-top: 9px;
 }
 
-          /*------- Соцсети в футере------ */
+/*------- Соцсети в футере------ */
+
+
+.footersoc-list {
+  display: flex;
+
+  width: 206px;
+  height: 44px;
+}
+
+.footersoc-item {
+
+  outline: 1px solid #f11414;
+}
+
+.footersoc-item + .footersoc-item {
+  margin-left: 10px;
+}
+
+.footersoc-icon {
+  fill: var(--title-text-color);
+  
+}
+
+.footersoc-link {
+  width: 44px;
+  height: 44px;
+
+display: flex;
+justify-content: center;
+align-items: center;
+  border-radius: 50px;
+
+  background-color: rgba(255, 255, 255, 0.1);;
+
+  outline: 2px solid #40e018;
+}
+
+
+.footersoc-link:hover,
+.footersoc-link:focus{
+  background-color:var(--accent-color)
+}
+
+.footer-container{
+  display: flex;
+
+}
 
 .footer-socseti{
-display: flex;
+  margin-left: 70px;
+  
+}
+
+.titlefooter{
+  color: var(--title-text-color);
+  margin-top: 12px;
+  margin-bottom: 20px;
 }
