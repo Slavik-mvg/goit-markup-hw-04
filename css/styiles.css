@@ -417,28 +417,24 @@ background-image: url(../images/svg/envelope.svg);
   color: var(--base-color);
 }
 
-
-.comand-soclink .comand-soc + .comand-soc{
-margin-left: 10px;
-
+.comand-soclink .comand-soc + .comand-soc {
+  margin-left: 10px;
 }
 .comand-socseti {
-   display: flex;
-   fill: #AFB1B8;  
-  
-/* outline: 4px solid turquoise; */
+  display: flex;
+  fill: #afb1b8;
 
+  /* outline: 4px solid turquoise; */
 }
 
 .comand-soc {
   display: flex;
 
-    /* outline: 2px solid rgb(17, 231, 210); */
-  
+  /* outline: 2px solid rgb(17, 231, 210); */
 }
 
-.comand-soc-link{
- width: 44px;
+.comand-soc-link {
+  width: 44px;
   height: 44px;
 
   display: flex;
@@ -447,18 +443,15 @@ margin-left: 10px;
   border-radius: 50px;
 
   /* outline: 3px solid rgb(13, 247, 25); */
-
 }
 
-
 .comand-soc-link:hover,
-.comand-soc-link:focus
-{
-  background-color: #2196F3;
+.comand-soc-link:focus {
+  background-color: #2196f3;
 }
 
 .comand-soc-link:hover .comand-socseti,
-.comand-soc-link:focus .comand-socseti{
+.comand-soc-link:focus .comand-socseti {
   fill: #ececec;
 }
 
@@ -470,10 +463,8 @@ margin-left: 10px;
 
   display: flex;
 
-    /* outline: 1px solid  rgb(224, 42, 42); */
-
+  /* outline: 1px solid  rgb(224, 42, 42); */
 }
-
 
 /* ---------------------------------------------------- */
 
@@ -532,56 +523,52 @@ margin-left: 10px;
   padding-left: 0;
 } */
 
-
-
 /*-------------------- Постоянные клиенты */
-
 
 /* ------------------------------------------- */
 
-.custom-title{
+.custom-title {
   padding-bottom: 50px;
 
   /* outline: 2px solid greenyellow; */
 }
 
+.customers {
+  display: flex;
 
-.customers{
-display: flex;
-
-outline: 1px solid tomato;
+  outline: 1px solid tomato;
 }
 
-.custom-item + .custom-item{
+.custom-item + .custom-item {
   margin-left: 30px;
 }
-.custom-item{
-  width: 170px;
-  height: 92px;
-
-     border: 1px solid #AFB1B8;
-  box-sizing: border-box;
-border-radius: 4px;
-  
-
+.custom-item {
   /* outline: 2px solid blue; */
 }
 
-.custom-link{
- 
-  background-color: #2196F3;
+.custom-link {
+  display: block;
+  width: 170px;
+  height: 92px;
+
+  border: 1px solid #afb1b8;
+  box-sizing: border-box;
+  border-radius: 4px;
 }
 
-.custom-icon{
-display: block;
-margin-top: 23px;
-margin-bottom: 19.77px;
-margin-right: auto;
-margin-left: auto;
+.custom-icon {
+  display: block;
+  margin-top: 16px;
+  margin-bottom: 16px;
+  margin-right: 32px;
+  margin-left: 32px;
+  fill: #afb1b8;
 
-fill: #2196F3;
+  outline: 1px solid #110c0c;
+}
 
-outline: 1px solid #110c0c;
+.custom-link:hover .custom-icon {
+  fill: #2196f3;
 }
 
 /* ------------------------------------------------------ */
@@ -614,11 +601,16 @@ footer {
   font-size: 14px;
   line-height: 1.71;
 
-  /* background-color: turquoise; */
   margin-top: 20px;
 }
 
 .link-footer-mailtel {
   color: var(--link-footer-color);
   margin-top: 9px;
+}
+
+          /*------- Соцсети в футере------ */
+
+.footer-socseti{
+display: flex;
 }
